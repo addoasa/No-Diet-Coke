@@ -27,7 +27,7 @@ class App extends Component {
         <Router>
 
             <React.Fragment>
-              <h1> Menu</h1>
+              <h1 className= "menu-heading"> Menu</h1>
 
                <Link to="/BrunchLunch" className="menu-navbar">Brunch/Lunch</Link> 
                <Link to="/" className="menu-navbar">Dinner</Link> 
