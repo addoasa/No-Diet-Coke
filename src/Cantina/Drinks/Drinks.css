@@ -1,0 +1,34 @@
+.Drinks-wrapper {
+  display: flex;
+}
+
+.Drinks-image-wrapper {
+  flex:1;
+}
+
+.Drinks-menu-wrapper {
+  flex: 1;
+}
+
+.Drinks-menu-header {
+  text-align: center;
+  margin: 6px;
+}
+
+.Drinks-location {
+  text-align: center;
+  margin: 6px;
+}
+
+.Drinks-availability {
+  text-align: center;
+  margin: 6px;
+}
+
+.Drinks-name {
+  font-size: 12pt;
+}
+
+.Drinks-description {
+  font-size: 10pt;
+}
