@@ -1,0 +1,42 @@
+.Header-container{
+    background-color: #ffc9c9;
+}
+
+.Header-logo{
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    padding: 0 10%;
+}
+
+.Header-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header-nav-item {
+    display: inline-block;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.Header-nav-link {
+    text-decoration: none;
+    color: black;
+    transition: all .3s;
+    cursor: pointer;
+    display: inline;
+}
