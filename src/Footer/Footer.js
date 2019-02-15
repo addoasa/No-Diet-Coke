@@ -1,14 +1,13 @@
 import React from "react";
 import "./Footer.css"
 import logo from "../images/logo.png"
-import { Link } from "react-router-dom";
 const Footer = props => {
   return (
     <footer className="footer-div">
       <h3 className="footer-copyright-h3">
         Copyright © 2019 Pepe Rosso Social
       </h3>
-      <Link to="/" ><img className="footer-logo-img" src={logo} alt="logo" /></Link>
+      <img className="footer-logo-img" src={logo} alt="logo" />
       
       <div className="footer-social-media-div">
         <a href="https://www.facebook.com/PepeRossoSocial/">
