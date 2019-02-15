@@ -5,6 +5,9 @@
     height: 98px;
     background-color: #ffc9c9;
 }
+.footer-div *{
+    margin: 10px;
+}
 .footer-div a{
     text-decoration: none;
     color: black;
@@ -27,9 +30,11 @@
     height: 42px;
 }
 
+.footer-social-media-div{
+    width: 33.33%;
+    text-align: right;
+}
+
 .fab {
   color: #303c42;
-}
-.footer-social-media-div{
-    width: 33.33%
 }
