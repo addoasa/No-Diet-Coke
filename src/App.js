@@ -17,6 +17,8 @@ class App extends Component {
     return (
       <div className="main-container">
       <Header />
+
+
 {/* ---------------------------------------------------------------------- */}
         {/* This is where the header and main landing image components can go (ex: <Header />)  */}
 {/* ---------------------------------------------------------------------- */}
@@ -45,6 +47,7 @@ class App extends Component {
 {/* ---------------------------------------------------------------------- */}
         {/* This is where everything beneath the menu (ex: <WeeklyEvents />, <HoursLocations />, <Contact />) can go */}
 {/* ---------------------------------------------------------------------- */}
+
 
       </div>
     );

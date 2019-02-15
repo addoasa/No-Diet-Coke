@@ -27,21 +27,3 @@
   color: #61dafb;
 }
 
-.contorni-list{
-  display:flex;
-}
-.secondi-list{
-  display:flex;
-}
-.pasta-list{
-  display:flex;
-}
-.insalate-list{
-  display:flex;
-}
-.antipasti-list{
-  display:flex;
-}
-.menu-navbar{
-text-align: center;
-}
