@@ -27,3 +27,19 @@ body {
   color: #61dafb;
 }
 
+/* -------------------------------------------
+General Menu Styles
+------------------------------------------- */
+.menu-heading{
+  width: 172px;
+  height: 57px;
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
