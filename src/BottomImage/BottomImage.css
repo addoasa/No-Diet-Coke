@@ -1,0 +1,16 @@
+.BottomImage-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 1438px;
+}
+
+.BottomImage-imgContainer{
+    flex-grow: 1;
+}
+
+.BottomImage-img{
+    height: 470px;
+    width: 470px;
+}

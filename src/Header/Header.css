@@ -3,8 +3,10 @@
 }
 
 .Header-logo{
-    text-align: center;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 42px;
+    display: block;
 }
 
 header {
