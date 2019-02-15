@@ -11,7 +11,9 @@ import Dessert from "./Dessert/Dessert"
 import BrunchLunch from "./BrunchLunch/BrunchLunch"
 import Drinks from "./Drinks/Drinks"
 import DinnerMenu from "./DinnerMenu/DinnerMenu"
+import BottomImage from "./BottomImage/BottomImage"
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import Footer from './Footer/Footer';
 
 class App extends Component {
   render() {
@@ -46,7 +48,8 @@ class App extends Component {
               </div>
             </React.Fragment>
 
-          </Router>
+
+        </Router>
 
 
 {/* ---------------------------------------------------------------------- */}
@@ -54,6 +57,9 @@ class App extends Component {
 {/* ---------------------------------------------------------------------- */}
 
 
+        
+      <BottomImage />
+      <Footer />
       </div>
     );
   }
