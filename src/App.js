@@ -6,6 +6,7 @@ import './App.css';
 // {/* ---------------------------------------------------------------------- */}
 
 import Header from "./Header/Header"
+import TopImage from "./TopImage/TopImage"
 import Dessert from "./Dessert/Dessert"
 import BrunchLunch from "./BrunchLunch/BrunchLunch"
 import Drinks from "./Drinks/Drinks"
@@ -17,7 +18,7 @@ class App extends Component {
     return (
       <div className="main-container">
       <Header />
-
+      <TopImage />
 
 {/* ---------------------------------------------------------------------- */}
         {/* This is where the header and main landing image components can go (ex: <Header />)  */}
