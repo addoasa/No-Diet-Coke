@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 class Header extends React.Component {
     render(){
         return(
-            <div className="Header">
+            <div className="Header-container">
+            <h1 className="Header-logo"><Link className="logo-link" to="/">PepeRossoSoCial</Link></h1>
         <header>
-          <h1 className="Header-logo"><Link className="logo-link" to="/">PepeRossoSoCial</Link></h1>
           <nav>
             <ul className="Header-nav">
               <li className="Header-nav-item"><Link className="Header-nav-link" to="/">Home</Link></li>
