@@ -30,19 +30,24 @@ class App extends Component {
         <Router>
 
             <React.Fragment>
-              <h1 className= "menu-heading"> Menu</h1>
+              <div className="menu-colorful-bg">
+                <div className= "menu-bg">
+                  <h1 className= "menu-heading"> MENUS</h1>
+                  <div className = "menu-navbar-container">
+                    <Link to="/BrunchLunch" className="menu-navbar">Brunch & Lunch</Link> 
+                    <Link to="/" className="menu-navbar">Dinner</Link> 
+                    <Link to="/Dessert" className="menu-navbar">Dessert</Link> 
+                    <Link to="/Drinks" className="menu-navbar">Drinks</Link> 
+                  </div>
 
-              <Link to="/BrunchLunch" className="menu-navbar">Brunch/Lunch</Link> 
-              <Link to="/" className="menu-navbar">Dinner</Link> 
-              <Link to="/Dessert" className="menu-navbar">Dessert</Link> 
-              <Link to="/Drinks" className="menu-navbar">Drinks</Link> 
+                  <Route exact path='/' component={ DinnerMenu } />
+                  <Route path='/Dessert' component={ Dessert } />
+                  <Route path='/BrunchLunch' component={ BrunchLunch } />
+                  <Route path='/Drinks' component={ Drinks } />
+                </div>
+              </div>
+            </React.Fragment>
 
-            <Route exact path='/' component={ DinnerMenu } />
-            <Route path='/Dessert' component={ Dessert } />
-            <Route path='/BrunchLunch' component={ BrunchLunch } />
-            <Route path='/Drinks' component={ Drinks } />
-
-          </React.Fragment>
 
         </Router>
 
