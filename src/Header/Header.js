@@ -6,7 +6,7 @@ class Header extends React.Component {
     render(){
         return(
             <div className="Header-container">
-            <h1 className="Header-logo"><Link className="logo-link" to="/">PepeRossoSoCial</Link></h1>
+            <Link className="logo-link" to="/"><img className="Header-logo" src="http://www.peperossosocial.com/wp-content/themes/pepe/images/logo.png" alt="PepeRossoSoCial"/></Link>
         <header>
           <nav>
             <ul className="Header-nav">

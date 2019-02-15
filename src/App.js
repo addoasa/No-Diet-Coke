@@ -14,6 +14,8 @@ import BrunchLunch from "./BrunchLunch/BrunchLunch"
 import Drinks from "./Drinks/Drinks"
 import DinnerMenu from "./DinnerMenu/DinnerMenu"
 import Cantina from "./Cantina/Cantina.js"
+import BottomImage from "./BottomImage/BottomImage"
+import Footer from './Footer/Footer';
 
 class App extends Component {
   render() {
@@ -30,21 +32,22 @@ class App extends Component {
         <Router>
 
             <React.Fragment>
-              <h1> Menu</h1>
+              <h1 className= "menu-heading"> Menu</h1>
 
-               <Link to="/BrunchLunch" className="menu-navbar">Brunch/Lunch</Link>
-               <Link to="/" className="menu-navbar">Dinner</Link>
-               <Link to="/Dessert" className="menu-navbar">Dessert</Link>
-               <Link to="/Drinks" className="menu-navbar">Drinks</Link>
 
-              <Route exact path='/' component={ DinnerMenu } />
-              <Route path='/Dessert' component={ Dessert } />
-              <Route path='/BrunchLunch' component={ BrunchLunch } />
-              <Route path='/Drinks' component={ Drinks } />
+              <Link to="/BrunchLunch" className="menu-navbar">Brunch/Lunch</Link> 
+              <Link to="/" className="menu-navbar">Dinner</Link> 
+              <Link to="/Dessert" className="menu-navbar">Dessert</Link> 
+              <Link to="/Drinks" className="menu-navbar">Drinks</Link> 
 
-            </React.Fragment>
+            <Route exact path='/' component={ DinnerMenu } />
+            <Route path='/Dessert' component={ Dessert } />
+            <Route path='/BrunchLunch' component={ BrunchLunch } />
+            <Route path='/Drinks' component={ Drinks } />
 
-          </Router>
+          </React.Fragment>
+
+        </Router>
 
 
 {/* ---------------------------------------------------------------------- */}
@@ -54,6 +57,9 @@ class App extends Component {
         <Cantina />
 
 
+        
+      <BottomImage />
+      <Footer />
       </div>
     );
   }

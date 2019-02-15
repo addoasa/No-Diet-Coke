@@ -1,0 +1,40 @@
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 98px;
+    background-color: #ffc9c9;
+}
+.footer-div *{
+    margin: 10px;
+}
+.footer-div a{
+    text-decoration: none;
+    color: black;
+}
+.footer-copyright-h3{
+    width: 33.33%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.footer-logo-img{
+    width: 33.33%;
+    width: 175px;
+    height: 42px;
+}
+
+.footer-social-media-div{
+    width: 33.33%;
+    text-align: right;
+}
+
+.fab {
+  color: #303c42;
+}
