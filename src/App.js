@@ -13,6 +13,7 @@ import Drinks from "./Drinks/Drinks"
 import DinnerMenu from "./DinnerMenu/DinnerMenu"
 import BottomImage from "./BottomImage/BottomImage"
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import Footer from './Footer/Footer';
 
 class App extends Component {
   render() {
@@ -49,8 +50,11 @@ class App extends Component {
 {/* ---------------------------------------------------------------------- */}
         {/* This is where everything beneath the menu (ex: <WeeklyEvents />, <HoursLocations />, <Contact />) can go */}
 {/* ---------------------------------------------------------------------- */}
-      <BottomImage />
 
+
+        
+      <BottomImage />
+      <Footer />
       </div>
     );
   }
