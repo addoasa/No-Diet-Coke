@@ -6,10 +6,12 @@ import './App.css';
 // {/* ---------------------------------------------------------------------- */}
 
 import Header from "./Header/Header"
+import TopImage from "./TopImage/TopImage"
 import Dessert from "./Dessert/Dessert"
 import BrunchLunch from "./BrunchLunch/BrunchLunch"
 import Drinks from "./Drinks/Drinks"
 import DinnerMenu from "./DinnerMenu/DinnerMenu"
+import BottomImage from "./BottomImage/BottomImage"
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import Footer from './Footer/Footer';
 
@@ -18,7 +20,7 @@ class App extends Component {
     return (
       <div className="main-container">
       <Header />
-
+      <TopImage />
 
 {/* ---------------------------------------------------------------------- */}
         {/* This is where the header and main landing image components can go (ex: <Header />)  */}
@@ -28,28 +30,31 @@ class App extends Component {
         <Router>
 
             <React.Fragment>
-              <h1> Menu</h1>
+              <h1 className= "menu-heading"> Menu</h1>
 
-               <Link to="/BrunchLunch" className="menu-navbar">Brunch/Lunch</Link> 
-               <Link to="/" className="menu-navbar">Dinner</Link> 
-               <Link to="/Dessert" className="menu-navbar">Dessert</Link> 
-               <Link to="/Drinks" className="menu-navbar">Drinks</Link> 
+              <Link to="/BrunchLunch" className="menu-navbar">Brunch/Lunch</Link> 
+              <Link to="/" className="menu-navbar">Dinner</Link> 
+              <Link to="/Dessert" className="menu-navbar">Dessert</Link> 
+              <Link to="/Drinks" className="menu-navbar">Drinks</Link> 
 
-              <Route exact path='/' component={ DinnerMenu } />
-              <Route path='/Dessert' component={ Dessert } />
-              <Route path='/BrunchLunch' component={ BrunchLunch } />
-              <Route path='/Drinks' component={ Drinks } />
+            <Route exact path='/' component={ DinnerMenu } />
+            <Route path='/Dessert' component={ Dessert } />
+            <Route path='/BrunchLunch' component={ BrunchLunch } />
+            <Route path='/Drinks' component={ Drinks } />
 
-            </React.Fragment>
+          </React.Fragment>
 
-          </Router>
+        </Router>
 
 
 {/* ---------------------------------------------------------------------- */}
         {/* This is where everything beneath the menu (ex: <WeeklyEvents />, <HoursLocations />, <Contact />) can go */}
 {/* ---------------------------------------------------------------------- */}
 
-        <Footer />
+
+        
+      <BottomImage />
+      <Footer />
       </div>
     );
   }

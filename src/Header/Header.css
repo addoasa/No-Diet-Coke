@@ -3,8 +3,10 @@
 }
 
 .Header-logo{
-    text-align: center;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 42px 0;
+    display: block;
 }
 
 header {
@@ -12,6 +14,7 @@ header {
 }
 
 .Header-nav {
+    margin: 0;
     list-style: none;
     padding: 0;
     display: flex;
