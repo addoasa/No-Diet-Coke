@@ -6,7 +6,7 @@ const Arrow =(props) => {
     return (
       <div className="arrow-div">
         <a href="#home">
-            <img src={arrow} alt="Go to top" /> <br/> Top
+            <img src={arrow} alt="Go to top" />
         </a>
       </div>
     );
