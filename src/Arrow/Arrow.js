@@ -1,12 +1,12 @@
 import "./Arrow.css";
 import React from 'react';
-import { Link } from "react-router-dom";
+import arrow from "../images/arrow.png"
 
 const Arrow =(props) => {
     return (
       <div className="arrow-div">
         <a href="#home">
-            <i class="fas fa-arrow-up fa-4x" /> <br/> Top
+            <img src={arrow} alt="Go to top" /> <br/> Top
         </a>
       </div>
     );
