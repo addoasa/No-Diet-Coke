@@ -19,6 +19,10 @@
 
   .menu-list-container{
       display:flex;
+      justify-content: space-between;
+      height:auto;
+    
+
   }
 
   .menu-dinner-heading {
@@ -32,11 +36,12 @@
         line-height: normal; 
         letter-spacing: -0.2px;
         color: #000000;
+        text-align: center;
       }
 
       .menu-selection-heading {
-        width: 138px;
-        height: 28px;
+        /* width: 138px; */
+        height: auto;
         font-family: 'Lato';
         font-size: 28px;
         font-weight: normal;
@@ -46,6 +51,7 @@
         letter-spacing: -0.1px;
         color: #000000;
         display:flex;
+        padding-top: 20px;
       }
 
       .menu-list-content{
@@ -59,6 +65,7 @@
             line-height: 1.42;
             letter-spacing: -0.2px;
             color: #000000;
+            margin-left: -40px;
       }
 
       .menu-list-prices{
@@ -72,4 +79,10 @@
             line-height: 1.42;
             letter-spacing: -0.2px;
             color: #000000;
+      }
+      
+      .menu-dinner-wrapper{
+          padding-left: 142px;
+          padding-right: 142px;
+          padding-top: 40px;
       }
