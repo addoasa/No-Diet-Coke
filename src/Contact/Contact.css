@@ -1,0 +1,23 @@
+.contact-container{
+    margin: 0 auto;
+    height: 505px;
+    font-family: Lato;
+    text-align: center;
+}
+.contact-openTable, .contact-parent{
+    font-size: 18px;
+}
+.opentable-button{
+    height: 53px;
+}
+.contact-links:hover{
+    color: #920909 !important;
+    cursor: pointer;
+}
+.contact-links:link{
+    color: #000000;
+}
+.contact-links:visited{
+    color: #000000;
+}
+
