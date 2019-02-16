@@ -17,7 +17,7 @@ const Footer = props => {
             <i className="fab fa-twitter fa-2x" />
         </a>
         <a href="https://www.instagram.com/explore/locations/157793329/">
-            <i class="fab fa-instagram fa-2x" />
+            <i className="fab fa-instagram fa-2x" />
         </a>
       </div>
     </footer>
