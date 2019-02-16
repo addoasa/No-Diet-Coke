@@ -14,11 +14,10 @@
 }
 .HL-menu-parent{
     display: flex;
-    padding-left:50px; 
 }
 .HL-peperosso-hl{
     flex: 1;
-    margin-left: 154px;
+    margin-left: 20%;
 }
 .HL-other-hl{
     flex: 1;
