@@ -29,12 +29,12 @@ General Menu Styles
 .menu-colorful-bg{
   background-color: pink;
   width: 100vw;
-  height: 1794px;
+  /* height: 1794px; */
   margin-top: 20px;
 }
 .menu-bg{
     width: 1080px;
-    height:auto;
+    /* height:auto; */
     height: 2000px;
     background-color: #ffffff;
     margin: 0 auto;
