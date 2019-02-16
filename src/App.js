@@ -16,6 +16,7 @@ import DinnerMenu from "./DinnerMenu/DinnerMenu"
 import Cantina from "./Cantina/Cantina.js"
 import BottomImage from "./BottomImage/BottomImage"
 import Footer from './Footer/Footer';
+import HoursLocations from './HoursLocation/HoursLocation'
 
 class App extends Component {
   render() {
@@ -60,7 +61,7 @@ class App extends Component {
 {/* ---------------------------------------------------------------------- */}
 
         <Cantina />
-
+        <HoursLocations />
 
         
       <BottomImage />

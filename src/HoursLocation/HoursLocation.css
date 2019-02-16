@@ -1,0 +1,52 @@
+.HL-Parent{
+    width: 1440px;
+    height: 543px;
+    background-color: #ffffff;
+    font-family: Lato;
+}
+.HL-heading{
+    font-size: 48px;
+    width: 470px;
+    height: 57px;
+    font-weight: bold;
+    color: #000000;
+    margin: 55px auto;
+}
+.HL-menu-parent{
+    display: flex;
+}
+.HL-peperosso-hl{
+    flex: 1;
+    margin-left: 154px;
+}
+.HL-other-hl{
+    flex: 1;
+}
+.HL-peperosso-heading{
+    width: 425px;
+    height: 34px;
+    font-size: 28px;
+    letter-spacing: -0.1px;
+}
+.HL-pr-location-parent{
+    width: 384px;
+    height: 292px;
+    font-size: 24px;
+    letter-spacing: -0.2px;
+    color: #000000;
+}
+.HL-other-heading{
+    width: 254px;
+    height: 34px;
+    font-size: 28px;
+    letter-spacing: -0.1px;
+    color: #000000;
+}
+.HL-other-parent{
+    width: 384px;
+    height: 286px;
+    font-size: 24px;
+    letter-spacing: -0.2px;
+    color: #000000;
+}
+
