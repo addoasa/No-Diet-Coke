@@ -18,25 +18,12 @@ class App extends Component {
   render() {
     return (
       <div className="main-container">
-      <Header />
-      <TopImage />
-
-{/* ---------------------------------------------------------------------- */}
-        {/* This is where the header and main landing image components can go (ex: <Header />)  */}
-{/* ---------------------------------------------------------------------- */}
-      <MainMenu />
-
-
-{/* ---------------------------------------------------------------------- */}
-        {/* This is where everything beneath the menu (ex: <WeeklyEvents />, <HoursLocations />, <Contact />) can go */}
-{/* ---------------------------------------------------------------------- */}
-
-        <Cantina />
-
-
-        
-      <BottomImage />
-      <Footer />
+        <Header />
+        <TopImage />
+        <MainMenu />
+        <Cantina />  
+        <BottomImage />
+        <Footer />
       </div>
     );
   }
