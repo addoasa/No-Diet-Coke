@@ -4,7 +4,6 @@ import "./DinnerMenu.css"
 
 
 function DinnerMenu (){
-console.log(menu)
     return(
         <React.Fragment>
             <div className ="menu-dinner-wrapper">
@@ -19,7 +18,7 @@ console.log(menu)
 
 
                     <ul className="menu-list-prices">{menu[0].dinner.antipasti_Prices.map((item)=>{
-                        return <li key={item.indexOf}> {item}</li>
+                        return <li key={item}> {item}</li>
                     })}
                     </ul>
                 </div>
@@ -32,7 +31,7 @@ console.log(menu)
                     </ul>
 
                     <ul className="menu-list-prices">{menu[0].dinner.insalate_Prices.map((item)=>{
-                        return <li key={item.indexOf}> {item}</li>
+                        return <li key={item}> {item}</li>
                     })}
                     </ul>
                 </div>
@@ -46,7 +45,7 @@ console.log(menu)
                     </ul>
 
                     <ul className="menu-list-prices">{menu[0].dinner.pasta_Prices.map((item)=>{
-                        return <li key={item.indexOf}> {item}</li>
+                        return <li key={item}> {item}</li>
                     })}
                     </ul>
                 </div>
@@ -59,7 +58,7 @@ console.log(menu)
                     </ul>
 
                     <ul className="menu-list-prices">{menu[0].dinner.secondi_Prices.map((item)=>{
-                        return <li key={item.indexOf}> {item}</li>
+                        return <li key={item}> {item}</li>
                     })}
                     </ul>
                 </div>
@@ -72,7 +71,7 @@ console.log(menu)
                     </ul>
 
                     <ul className="menu-list-prices">{menu[0].dinner.contorni_Prices.map((item)=>{
-                        return <li key={item.indexOf}> {item}</li>
+                        return <li key={item}> {item}</li>
                     })}
                     </ul>
                 </div>
