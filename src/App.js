@@ -16,6 +16,7 @@ import DinnerMenu from "./DinnerMenu/DinnerMenu"
 import Cantina from "./Cantina/Cantina.js"
 import BottomImage from "./BottomImage/BottomImage"
 import Footer from './Footer/Footer';
+import Arrow from './Arrow/Arrow';
 
 class App extends Component {
   render() {
@@ -23,7 +24,7 @@ class App extends Component {
       <div className="main-container">
       <Header />
       <TopImage />
-
+      <Arrow />
 {/* ---------------------------------------------------------------------- */}
         {/* This is where the header and main landing image components can go (ex: <Header />)  */}
 {/* ---------------------------------------------------------------------- */}

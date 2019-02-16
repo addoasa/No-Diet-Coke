@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="71px" viewBox="0 0 71 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Forum/Submit@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="35.5" cy="35.5" r="35.5"></circle>
+        <filter x="-4.9%" y="-3.5%" width="109.9%" height="109.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Forum/Submit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Oval">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#920909" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <g id="Group" transform="translate(27.000000, 39.000000)" fill="#FFFFFF" font-family="Lato-Bold, Lato" font-size="10" font-weight="bold" letter-spacing="0.12">
+            <text id="Top">
+                <tspan x="0.71" y="10">Top</tspan>
+            </text>
+        </g>
+        <polyline id="Path" stroke="#FFFFFF" stroke-width="3" points="22.849428 35 36.7400679 21 48.849428 35"></polyline>
+    </g>
+</svg>
