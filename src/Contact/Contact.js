@@ -13,7 +13,7 @@ const Contact = () => {
             </div>
             <div className="contact-openTable">
                 <p>Reserve A Table:</p>
-                <a href="https://www.opentable.com/pepe-rosso-social-reservations-new-york?rtype=ism&restref=215212" className="contact-links"><img className="opentable-button" src={opentable}></img></a>
+                <a href="https://www.opentable.com/pepe-rosso-social-reservations-new-york?rtype=ism&restref=215212" className="contact-links"><img className="opentable-button" src={opentable} alt="opentable-logo"></img></a>
             </div>
         </div>
      );
