@@ -1,5 +1,5 @@
 .HL-Parent{
-    width: 1440px;
+    width: 100vw;
     height: 543px;
     background-color: #ffffff;
     font-family: Lato;
@@ -14,6 +14,7 @@
 }
 .HL-menu-parent{
     display: flex;
+    padding-left:50px; 
 }
 .HL-peperosso-hl{
     flex: 1;
