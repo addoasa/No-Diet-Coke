@@ -1,1 +1,12 @@
+.Events-container {
+  display: flex;
+}
 
+.Events-info-container {
+  flex: 1;
+  padding:10% 7%;
+}
+
+.Events-image-wrapper {
+  flex:1;
+}
