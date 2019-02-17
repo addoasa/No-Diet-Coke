@@ -1,0 +1,14 @@
+.arrow-div a img{
+    width: 80px;
+    height: 80px;
+}
+
+.arrow-div {
+    width: 17px;
+    height: 12px;
+    padding: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 80%;
+}
