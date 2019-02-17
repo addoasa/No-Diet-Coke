@@ -19,7 +19,7 @@ class MainMenu extends Component {
                     <div className="menu-white">
                     <h1 className= "menu-heading"> MENUS</h1>
                     <div className = "menu-navbar-container">
-                        <Link to="/BrunchLunch" className="menu-navbar">Brunch & Lunch</Link> 
+                        <Link to="/BrunchLunch" className="menu-navbar" id="brunch-nav">Brunch & Lunch</Link> 
                         <Link to="/" className="menu-navbar" id="dinner-heading">Dinner</Link> 
                         <Link to="/Dessert" className="menu-navbar">Dessert</Link> 
                         <Link to="/Drinks" className="menu-navbar">Drinks</Link> 
