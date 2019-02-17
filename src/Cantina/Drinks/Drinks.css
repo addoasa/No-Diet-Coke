@@ -1,5 +1,9 @@
+*{
+  font-family: 'Lato';
+}
 .Drinks-wrapper {
   display: flex;
+  padding-top: 5%;
 }
 
 .Drinks-image-wrapper {
@@ -18,11 +22,14 @@
 .Drinks-location {
   text-align: center;
   margin: 6px;
+  font-size: 10pt;
 }
 
 .Drinks-availability {
   text-align: center;
   margin: 6px;
+  margin-bottom: 10%;
+  font-size: 10pt;
 }
 
 .Drinks-name {

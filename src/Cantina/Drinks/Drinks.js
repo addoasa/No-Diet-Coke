@@ -1,6 +1,7 @@
 import React from "react"
 import "./Drinks.css"
 
+
 const Drinks = () => {
   return(
     <div className="Drinks-wrapper">
