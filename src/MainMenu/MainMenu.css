@@ -14,15 +14,18 @@
     padding-top: 10px;
   }
   .menu-colorful-bg{
-    background-color: pink;
-    width: 100vw;
+background-image: url("../images/Menu_Background.png");
     /* height: 1794px; */
-    margin-top: 20px;
+    /* margin-top: 20px; */
+  }
+
+  link #dinner-heading{
+    font-weight: 900 !important;
   }
   .menu-bg{
       width: 1080px;
-      /* height:auto; */
-      height: 2000px;
+      height:auto;
+      /* height: 2000px; */
       background-color: #ffffff;
       margin: 0 auto;
       /* margin-top: 30px; */
