@@ -123,6 +123,12 @@
             "Grilled Eggplant, Goat Cheese & Fresh Mozzarella",
             "Rigatoni Eggplant & Ricotta Cheese",
             "Penne Vodka w/ Pancetta"
+        ],
+        "LunchSpecialPrices":[
+            10,
+            10,
+            10,
+            10
         ]
         }
     },

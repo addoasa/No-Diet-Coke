@@ -30,7 +30,7 @@ class MainMenu extends Component {
                   <Route path='/BrunchLunch' component={ BrunchLunch } />
                   <Route path='/Drinks' component={ Drinks } />
                 </div>
-              </div>
+            </div>
             </React.Fragment>
 
 

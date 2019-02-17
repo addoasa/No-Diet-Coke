@@ -14,21 +14,29 @@
     padding-top: 10px;
   }
   .menu-colorful-bg{
-background-image: url("../images/Menu_Background.png");
-    /* height: 1794px; */
-    /* margin-top: 20px; */
+    background-image: url("../images/Menu_Background.png");
+    /* background-size: cover; */
+    position:relative;
+    margin-top: -35px;
+    /* margin-bottom: 20px; */
   }
+.maincontainer{
+    background-color: rgba(0,0,0,0);
+}
 
-  link #dinner-heading{
+
+  #dinner-heading{
     font-weight: 900 !important;
   }
   .menu-bg{
       width: 1080px;
-      height:auto;
+      height: auto;
       /* height: 2000px; */
       background-color: #ffffff;
       margin: 0 auto;
-      /* margin-top: 30px; */
+      /* margin-top: 30px !important; */
+      padding-top: 50px;
+      padding-bottom: 70px;
   }
   
   .menu-navbar-container{
@@ -50,3 +58,4 @@ background-image: url("../images/Menu_Background.png");
     /* margin:0 auto; */
     /* margin-left: 70px; */
   }
+
