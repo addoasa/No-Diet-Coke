@@ -1,28 +1,9 @@
-/* .contorni-list{
-    display:flex;
-  }
-  .secondi-list{
-    display:flex;
-  }
-  .pasta-list{
-    display:flex;
-  }
-  .insalate-list{
-    display:flex;
-  }
-  .antipasti-list{
-    display:flex;
-  }
-  .menu-navbar{
-    text-align: center;
-    } */
+
 
   .menu-list-container{
       display:flex;
       justify-content: space-between;
-      height:auto;
-    
-
+      margin-top:-18px;
   }
   .menu-Addon{
     height: 29px;
@@ -41,9 +22,9 @@
   font-size: 18px !important;
 
 }
-  .menu-dinner-heading {
+.menu-dinner-heading {
         /* width: 132px; */
-        height: 42px;
+        /* height: 42px; */
         font-family: 'Lato';      
         font-size: 35px;
         font-weight: normal;
@@ -53,9 +34,9 @@
         letter-spacing: -0.2px;
         color: #000000;
         text-align: left;
-      }
+    }
 
-      .menu-selection-heading {
+    .menu-selection-heading {
         /* width: 138px; */
         height: auto;
         font-family: 'Lato';
@@ -67,10 +48,12 @@
         letter-spacing: -0.1px;
         color: #000000;
         display:flex;
+        margin-top:18px ;
         padding-top: 20px;
-      }
+        padding-bottom: -30px;
+    }
 
-      .menu-list-content{
+    .menu-list-content{
             width: auto;
             height: auto;
             font-family: Lato;
@@ -78,13 +61,15 @@
             font-weight: normal;
             font-style: normal;
             font-stretch: normal;
-            line-height: 1.42;
+            line-height: 2;
             letter-spacing: -0.2px;
             color: #000000;
             margin-left: -40px;
-      }
+            vertical-align:top;
 
-      .menu-list-prices{
+    }
+
+    .menu-list-prices{
             width: auto;
             height: auto;
             font-family: 'Lato';
@@ -92,13 +77,13 @@
             font-weight: normal;
             font-style: normal;
             font-stretch: normal;
-            line-height: 1.42;
+            line-height: 2;
             letter-spacing: -0.2px;
             color: #000000;
-      }
+    }
       
-      .menu-dinner-wrapper{
+    .menu-dinner-wrapper{
           padding-left: 142px;
           padding-right: 142px;
           padding-top: 40px;
-      }
+    }
