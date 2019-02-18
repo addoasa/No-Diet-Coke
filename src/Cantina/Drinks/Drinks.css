@@ -12,6 +12,13 @@
 
 .Drinks-menu-wrapper {
   flex: 1;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.Drinks-image {
+  width: 100%;
+  height: 100%;
 }
 
 .Drinks-menu-header {

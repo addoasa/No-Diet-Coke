@@ -1,6 +1,8 @@
 import React from "react"
 import "./Drinks.css"
+import beforeDinnerDrinks from "../../beforeDinnerDrinks"
 
+console.log(beforeDinnerDrinks[1]);
 
 const Drinks = () => {
   return(
@@ -13,7 +15,7 @@ const Drinks = () => {
         <h5 className="Drinks-location">Downstairs</h5>
         <h5 className="Drinks-availability">Thursday,Friday & Saturday</h5>
         <h3 className="Drinks-price">BEFORE DINNER DRINKS - $12</h3>
-        <p className="Drinks-name">Aperol Spritz<span className="Drinks-description"> (aperol, prosecco, club soda)</span></p>
+        <p className="Drinks-name">same same same<span className="Drinks-description"> (aperol, prosecco, club soda)</span></p>
         <p className="Drinks-name">Negroni Sbagliato<span className="Drinks-description"> (Campari, vermouth, prosecco)</span></p>
         <p className="Drinks-name">Caipiroska<span className="Drinks-description"> (vodka, sour mix, club soda)</span></p>
         <p className="Drinks-name">Spicy Mojito<span className="Drinks-description"> (rum, jalapeño, mint, lime)</span></p>
