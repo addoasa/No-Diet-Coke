@@ -23,7 +23,7 @@ const Events = () => {
         <p className="Events-info">Every Saturday</p>
       </div>
       <div className="Events-image-wrapper">
-        <img className="Events-image" src="http://www.peperossosocial.com/wp-content/uploads/2014/09/81.jpg"/>
+        <img className="Events-image" src="http://www.peperossosocial.com/wp-content/uploads/2014/09/81.jpg" alt=""/>
       </div>
     </div>
   )
