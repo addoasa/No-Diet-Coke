@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollableAnchor from 'react-scrollable-anchor'
 import './App.css';
 import Header from "./Header/Header"
 import TopImage from "./TopImage/TopImage"
@@ -18,10 +19,23 @@ class App extends Component {
         <Header />
         <TopImage />
         <Arrow />
-        <MainMenu />
-        <Cantina />  
-        <HoursLocations />
-        <Contact />
+
+        <ScrollableAnchor id={'menus'}>
+          <MainMenu />
+        </ScrollableAnchor>
+
+        <ScrollableAnchor id={'events'}>
+          <Cantina />  
+        </ScrollableAnchor>
+
+        <ScrollableAnchor id={"hours_locations"}>
+          <HoursLocations />
+        </ScrollableAnchor>
+        
+        <ScrollableAnchor id={"contact"}>
+          <Contact />
+        </ScrollableAnchor>
+        
         <BottomImage />
         <Footer />
 

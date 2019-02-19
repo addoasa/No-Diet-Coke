@@ -5,7 +5,7 @@ const Drinks = () => {
   return(
     <div className="Drinks-wrapper">
       <div className="Drinks-image-wrapper">
-        <img className="Drinks-image" src="http://www.peperossosocial.com/wp-content/uploads/2014/09/51.jpg"/>
+        <img className="Drinks-image" src="http://www.peperossosocial.com/wp-content/uploads/2014/09/51.jpg" alt=""/>
       </div>
       <div className="Drinks-menu-wrapper">
         <h1 className="Drinks-menu-header">CANTINA</h1>
