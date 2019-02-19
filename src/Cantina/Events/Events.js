@@ -3,7 +3,7 @@ import "./Events.css"
 
 const Events = () => {
   return(
-    <div className="Events-container ">
+    <div className="Events-container">
       <div className="Events-info-container">
         <h1 className="Events-title">WEEKLY EVENTS</h1>
         <br/>
