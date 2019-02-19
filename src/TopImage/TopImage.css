@@ -11,7 +11,9 @@
     background-color: whitesmoke;
     position: absolute;
     top: 60%;
-    left: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1022px;
     font-family: Lato;
     font-size: 48px;
     font-weight: bold;
