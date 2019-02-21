@@ -11,13 +11,13 @@ const Footer = props => {
       
       <div className="footer-social-media-div">
         <a href="https://www.facebook.com/PepeRossoSocial/">
-            <i className="fab fa-facebook-square fa-2x" />
+            <i className="fab fa-facebook-square fa-2x fa-1x" />
         </a>
         <a href="https://twitter.com/peperossosocial">
-            <i className="fab fa-twitter fa-2x" />
+            <i className="fab fa-twitter fa-2x fa-1x" />
         </a>
-        <a href="https://www.instagram.com/explore/locations/157793329/">
-            <i className="fab fa-instagram fa-2x" />
+        <a className="social" href="https://www.instagram.com/explore/locations/157793329/">
+            <i className="fab fa-instagram fa-2x fa-1x" />
         </a>
       </div>
     </footer>

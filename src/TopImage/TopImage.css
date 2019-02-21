@@ -1,10 +1,11 @@
 .TopImage-container {
     background-image: url("http://www.peperossosocial.com/wp-content/uploads/2014/09/spaghetti-pomodoro.jpg");
-    background-size: 100vw;
-    background-position: center;
+    background-size: cover;
+    background-position: top;
     background-repeat: no-repeat;
     height: 705px;
     position: relative;
+    transition: 0.3s;
 }
 
 .TopImage-text{
@@ -21,4 +22,33 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
+}
+
+@media(max-width:850px){
+    .TopImage-container {
+        height: 500px;
+    }
+
+.TopImage-text{
+   
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    font-family: Lato;
+    font-size: 30px;
+}
+   
+}
+
+@media(max-width:550px){
+    .TopImage-container {
+        height: 350px;
+        background-size: contain;
+    }
+
+    .TopImage-text{
+   
+        display:none;
+    }
 }
