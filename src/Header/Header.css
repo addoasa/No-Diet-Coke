@@ -87,13 +87,13 @@ header {
     .Head-nav {
         margin: 0!important;
         list-style: none;
-        /* padding: 0 !important; */
+        padding: -50px !important;
         display: grid !important;
         flex-flow: row wrap !important;
         justify-content: space-between !important;
         align-items: left !important;
         text-align: left;
-        padding-left:100px; 
+        /* padding-left:100px;  */
     }
     .Header-nav-item{
         border-bottom: solid 1.2px black;

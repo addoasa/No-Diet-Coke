@@ -1,16 +1,19 @@
 .BottomImage-container{
     display: flex;
-    width: 100vw;
+    flex-wrap: wrap;
+    width: 100%;
+    height:auto;
+    justify-content: space-around;
+    
+
 }
 
-.BottomImage-imgContainer{
-    /* flex: 1; */
-    height:40%;
-    width: 32.7%;
-}
+
 
 .BottomImage-img{
     max-height:470px;
-    width:100% ;
+    width: 450px ;
+    height: auto;
 
 }
+  

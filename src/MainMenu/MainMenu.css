@@ -49,8 +49,10 @@
       .menu-white{
         width:750px;
         padding-bottom: 60px;
-
-
+      }
+      .menu-colorful-bg{
+   
+        margin-top: -35px;
       }
   }
   
@@ -71,7 +73,7 @@
 
 }
 
-@media(max-width:500px){
+@media(max-width:550px){
     .menu-bg{width:500px;
     }
     .menu-navbar-container{
@@ -81,6 +83,10 @@
         width:500px;
 
     }
+    .menu-colorful-bg{
+   
+        margin-top: -120px;
+      }
     
 
 }
