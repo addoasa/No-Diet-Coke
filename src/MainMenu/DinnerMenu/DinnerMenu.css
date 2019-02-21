@@ -50,7 +50,7 @@
         display:flex;
         margin-top:18px ;
         padding-top: 20px;
-        padding-bottom: -30px;
+        padding-bottom: 30px;
     }
 
     .menu-list-content{
@@ -86,4 +86,16 @@
           padding-left: 142px;
           padding-right: 142px;
           padding-top: 40px;
+
     }
+
+ @media(max-width:600){
+  .menu-dinner-wrapper{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 40px;
+    padding-bottom:40px;
+    width: 100vw;
+
+}
+ }

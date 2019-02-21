@@ -1,5 +1,6 @@
 .Header-container{
     background-color: #ffc9c9;
+    
 }
 
 .Header-logo{
@@ -25,11 +26,10 @@ header {
 .Head-nav {
     margin: 0  !important;
     list-style: none;
-    padding: 0 !important;
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-  
+    padding-bottom: 30px;
 }
 
 .Header-nav-item {

@@ -13,11 +13,14 @@
   flex: 1;
   padding-top: 5%;
   padding-left: 10%;
+  
 }
 
 .Drinks-image {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  padding-left: 60px;
+  padding-top: 70px;
 }
 
 .Drinks-menu-header {
@@ -40,8 +43,31 @@
 
 .Drinks-name {
   font-size: 12pt;
-}
+padding-bottom: -90px;
+height:15px;}
 
 .Drinks-description {
   font-size: 10pt;
+}
+
+.Drinks-price{
+  font-size: 14pt;
+  padding-bottom: 10px;
+}
+
+@media(max-width:950px){
+  .Drinks-wrapper {
+    display: block;
+  }
+
+  .Drinks-image-wrapper {
+    width: 100vw;
+    height: 100vh;  
+  }
+  .Drinks-image {
+    width: 100%;
+    height: 100%;
+    padding:0;
+ 
+  }
 }
