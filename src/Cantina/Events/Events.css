@@ -3,18 +3,25 @@
 }
 .Events-container {
   display: flex;
+  width:100vw;
 }
 
 .Events-info-container {
   flex: 1;
-  padding-top: 5%;
+  /* padding-top: 5%; */
   padding-left: 10%;
 }
+.Events-info-container p{
+ padding-bottom: -20px;
+}
 
+.Events-section{
+  font-size: 16pt;
+}
 .Events-image-wrapper {
   flex:1;
-  height: 720px;
-  width: 520px;
+  height: 600px;
+  width:600px;
 }
 
 .Events-image {
@@ -25,4 +32,21 @@
 .Events-title {
   text-align: center;
   font-size: 30pt;
+  font-weight: 700;
+  padding-top: 70px;
+}
+
+@media(max-width:950px){
+  .Events-container {
+    display: block;
+    width:100vw;
+    justify-content: center;
+    align-content: center;
+  }
+  .Events-image-wrapper {
+    padding-top: 40px;
+    height: 100%;
+    width:100%;
+    margin:0 auto;
+  }
 }

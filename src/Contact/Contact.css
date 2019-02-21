@@ -1,8 +1,9 @@
 .contact-container{
     margin: 0 auto;
-    height: 300px;
+    height: auto;
     font-family: Lato;
     text-align: center;
+    padding-bottom: 30px;
 }
 .contact-openTable, .contact-parent{
     font-size: 18px;
@@ -20,4 +21,15 @@
 .contact-links:visited{
     color: #000000;
 }
+
+@media(max-width:800px){
+    .contact-container{
+        margin: 0 auto;
+        margin-top: 250px;
+        height: auto;
+        font-family: Lato;
+        text-align: center;
+    }
+}
+    
 
